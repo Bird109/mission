@@ -10,17 +10,24 @@
 .video-wrap {
   position: relative;
   overflow: hidden;
-  width: 50%;
-  height: 50%;
+  width: 50vh;
+  height: 50vh;
   background: url(img/video.jpg) no-repeat center center/cover;
 }
 
 video {
-  min-width: 50%;
-  min-height: 50%;
+  min-width: 50vh;
+  min-height: 50vh;
   position: absolute;
 }
 
+@media (max-aspect-ratio: 1/1) {
+  video {
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 
 
 
