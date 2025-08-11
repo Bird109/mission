@@ -21,16 +21,6 @@ video {
   position: absolute;
 }
 
-/*画面サイズが変わっても常に動画の中央が表示されるようにする*/
 
-
-/*動画よりも画面が縦に長くなるとき用*/
-@media (max-aspect-ratio: 16/9) {
-  video {
-    height: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
 
 
