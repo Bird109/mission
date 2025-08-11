@@ -10,14 +10,14 @@
 .video-wrap {
   position: relative;
   overflow: hidden;
-  width: 30vh;
-  height: 30vh;
+  width: 30%;
+  height: 30%;
   background: url(img/video.jpg) no-repeat center center/cover;
 }
 
 video {
-  min-width: 30vh;
-  min-height: 30vh;
+  min-width: 30%;
+  min-height: 30%;
   position: absolute;
 }
 
@@ -28,6 +28,7 @@ video {
     transform: translateX(-50%);
   }
 }
+
 
 
 
