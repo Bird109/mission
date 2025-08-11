@@ -1,6 +1,6 @@
 .video-container {
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
   left: 0;
   right: 0;
   top: 0;
@@ -10,14 +10,14 @@
 .video-wrap {
   position: relative;
   overflow: hidden;
-  width: 50vh;
-  height: 50vh;
+  width: 30vh;
+  height: 30vh;
   background: url(img/video.jpg) no-repeat center center/cover;
 }
 
 video {
-  min-width: 50vh;
-  min-height: 50vh;
+  min-width: 30vh;
+  min-height: 30vh;
   position: absolute;
 }
 
@@ -28,6 +28,7 @@ video {
     transform: translateX(-50%);
   }
 }
+
 
 
 
